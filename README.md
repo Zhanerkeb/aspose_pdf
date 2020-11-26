@@ -14,7 +14,7 @@ An app works in such case:
 The path of downloaded file is : /storage/emulated/0/Android/data/com.example.aspose_pdf/files
 
 
-# Packages:
+## Packages:
 
 file_picker - a package which allows  you to use a native file explorer to pick  file paths. It has a bunch of advantages like Uses OS default native pickers, Pick files using custom format filtering — you can provide a list of file extensions (pdf, svg, zip, etc.), different default type filtering (media, image, video, audio or any) and has a 99% popularity in pub.dev
 
@@ -23,3 +23,7 @@ path_provider - used for finding commonly used locations on the filesystem. In m
 shared_preferences - Wraps platform-specific persistent storage for simple data (NSUserDefaults on iOS and macOS, SharedPreferences on Android). There was also an option to use flutter_secure_storage. However, this library is not supported in earlier Android SDKs.
 
 http - used to make HTTP requests. Library allows to make individual HTTP requests with minimal hassle.
+
+## Test: 
+Test is in /test/widget_test.dart. Test is written  for finding a widget.
+
